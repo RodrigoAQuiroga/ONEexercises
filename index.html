@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Práctica y aplicación de conceptos</h1>
+    <h2>Ejercicios correspondientes al curso: PRINCIPIANTE EN PROGRAMACIÓN G5 - ONE</h2>
+  </header>
+
+
+  <main>
+    <section class="tablaMultiplicar">
+      <h3>Tablas de Multiplicar</h3>
+      <p>A continuación ingrese en el multiplicando el numero que desea multiplicar y en el multiplicador la cantidad de
+        veces que quiere hacerlo.</p>
+
+      <p>Resulta útil para enseñar a multiplicar debido a que presenta todos los resultados que se encuentran
+        secuencialmente antes de llegar al multiplicando indicado.</p>
+      <div class="tabla_inputs">
+        <input type="number" name="" class="first" placeholder="Multiplicador">
+        <span><b> X </b></span>
+        <input type="number" name="" class="second" placeholder="Multiplicando">
+        <hr>
+        <button class="tabla_btnmultiplicar" onclick="multiplicar()">Resultado</button>
+        <button class="tabla_btnborrar" onclick="borrar()">Borrar Resultado</button>
+      </div>
+      <div id="showResults">
+        <h3>Resultados</h3>
+        <h4>Recuerda <button onclick="borrar()">BORRAR</button> los resultados antes de consultar de nuevo!!!</h4>
+
+      </div>
+    </section>
+
+   
+  </main>
+</body>
+
+</html>
