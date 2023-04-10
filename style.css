@@ -9,7 +9,8 @@ body {
 
 h1,
 h2,
-h3, h4 {
+h3,
+h4 {
     text-align: center;
 }
 
@@ -23,12 +24,12 @@ input {
 
 button {
     font-weight: bolder;
-    padding: 5px;   
-     
+    padding: 5px;
+
     border-radius: 5px;
 }
 
-.tablaMultiplicar{
+.tablaMultiplicar {
     background-color: #a1a1a1;
     padding: 10px;
     text-align: justify;
@@ -36,17 +37,18 @@ button {
     font-weight: bold;
 }
 
-.tabla_inputs{
+.tabla_inputs {
     text-align: center;
     padding: 5px;
-    
-}
-.tabla_btnmultiplicar {
-    background-color: greenyellow;
-    
+
 }
 
-.tabla_btnborrar{
+.tabla_btnmultiplicar {
+    background-color: greenyellow;
+
+}
+
+.tabla_btnborrar {
     background-color: orangered;
 }
 
@@ -58,8 +60,8 @@ button {
     padding: 10px;
     border: 2px solid black;
     border-radius: 5px 20px;
-    margin: 2em;
-    
+   
+
 
 }
 
