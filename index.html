@@ -27,21 +27,58 @@
       <p>Resulta útil para enseñar a multiplicar debido a que presenta todos los resultados que se encuentran
         secuencialmente antes de llegar al multiplicando indicado.</p>
       <div class="tabla_inputs">
-                
-        <input type="number" name="" class="first" placeholder="Multiplicando">
+
+        <input type="number" name="" class="first" placeholder="Multiplicando" onclick="borrar()">
         <p><b>X</b></p>
-        <input type="number" name="" class="second" min="1" placeholder="Multiplicador"><br>
+        <input type="number" name="" class="second" min="1" placeholder="Multiplicador" onclick="borrar()"><br>
         <hr>
         <button class="tabla_btnmultiplicar" onclick="multiplicar()">Resultado</button>
-        <button class="tabla_btnborrar" onclick="borrar()">Borrar Resultado</button>  <br>      
+        <button class="tabla_btnborrar" onclick="borrar()">Borrar Resultado</button> <br>
       </div>
-      <span style="padding: 1px; font-size: 5em; display: block; text-align: center; font-weight: lighter;">&#9759;</span>
-      
-      <div id="showResults">        
+      <span
+        style="padding: 1px; font-size: 5em; display: block; text-align: center; font-weight: lighter; color: crimson;">&#9759;</span>
+
+      <div id="showResults">
         <h3>Resultados</h3>
         <h4>Recuerda <button onclick="borrar()">BORRAR</button> los resultados antes de consultar de nuevo!!!</h4>
 
       </div>
+    </section>
+
+
+    <!--CALCULADORA INDEMNIZATORIA-->
+
+    <section class="calcIndemnizacion">
+      <h3>Calculadora de Indemnizaciones según Legislación Argentina</h3>
+
+      <p>¿Cuando ingreso a trabajar?</p>
+      <input type="number" name="" class="iniYear" placeholder="Año de Ingreso">
+      <input type="number" name="" class="iniMonth" placeholder="Mes de Ingreso">
+      <input type="number" name="" class="iniDay" placeholder="Día de Ingreso">
+
+      <hr>
+
+      <p>¿Cuando lo despidieron?</p>
+      <input type="number" name="" class="endYear" placeholder="Año de Egreso">
+      <input type="number" name="" class="endMonth" placeholder="Mes de Egreso">
+      <input type="number" name="" class="endDay" placeholder="Día de Egreso">
+
+      <hr>
+
+      <p>¿Cual fue su mejor sueldo?</p>
+      <input type="number" name="" class="sueldo" placeholder="Ingrese el numero sin PUNTOS, COMAS o SIMBOLOS">
+<hr>
+<button onclick="indemnizacionGeneral()">Calcular</button>
+
+<hr>
+
+<div id="showRubro">
+  <h3>Rubros</h3>
+ 
+
+</div>
+
+
     </section>
 
 
