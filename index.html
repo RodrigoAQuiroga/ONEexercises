@@ -52,21 +52,21 @@
       <h3>Calculadora de Indemnizaciones según Legislación Argentina</h3>
 
       <p>¿Cuando ingreso a trabajar?</p>
-      <input type="number" name="" class="iniYear" placeholder="Año de Ingreso">
-      <input type="number" name="" class="iniMonth" placeholder="Mes de Ingreso">
-      <input type="number" name="" class="iniDay" placeholder="Día de Ingreso">
+      <input type="number" name="" class="iniYear" placeholder="Año de Ingreso" onclick="erase()">
+      <input type="number" name="" class="iniMonth" placeholder="Mes de Ingreso" onclick="erase()">
+      <input type="number" name="" class="iniDay" placeholder="Día de Ingreso" onclick="erase()">
 
       <hr>
 
       <p>¿Cuando lo despidieron?</p>
-      <input type="number" name="" class="endYear" placeholder="Año de Egreso">
-      <input type="number" name="" class="endMonth" placeholder="Mes de Egreso">
-      <input type="number" name="" class="endDay" placeholder="Día de Egreso">
+      <input type="number" name="" class="endYear" placeholder="Año de Egreso" onclick="erase()">
+      <input type="number" name="" class="endMonth" placeholder="Mes de Egreso" onclick="erase()">
+      <input type="number" name="" class="endDay" placeholder="Día de Egreso" onclick="erase()">
 
       <hr>
 
       <p>¿Cual fue su mejor sueldo?</p>
-      <input type="number" name="" class="sueldo" placeholder="Ingrese el numero sin PUNTOS, COMAS o SIMBOLOS">
+      <input type="number" name="" class="sueldo" placeholder="Sin PUNTOS, COMAS o SIMBOLOS" style="width: 50%;" onclick="erase()">
 <hr>
 <button onclick="indemnizacionGeneral()">Calcular</button>
 
@@ -74,6 +74,8 @@
 
 <div id="showRubro">
   <h3>Rubros</h3>
+
+  <button onclick="erase()">Borrar Resultados</button>
  
 
 </div>

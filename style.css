@@ -4,7 +4,8 @@
 }
 
 body {
-    padding: 5px;
+   
+    background-color: snow;
 }
 
 h1,
@@ -13,6 +14,15 @@ h3,
 h4 {
     text-align: center;
 }
+header{
+
+    background-color: coral;
+    width: 100%;    
+    border-radius: 5px 10px;
+    border-color: black;
+    border-style: solid;
+}
+
 
 input {
     padding: 5px;
@@ -29,13 +39,16 @@ button {
     border-radius: 5px;
 }
 
-.tablaMultiplicar {
-    background-color: #a1a1a1;
+.tablaMultiplicar, .calcIndemnizacion {
+    background-color: #FFA07A;
     padding: 10px;
-    text-align: justify;
+    text-align: center;
     border-radius: 20px 5px;
     font-weight: bold;
-}
+    margin: 5px;
+    border: 2px solid black;
+    }
+
 
 .tabla_inputs {
     text-align: center;
@@ -54,9 +67,9 @@ button {
 
 
 
-#showResults {
+#showResults, #showRubro {
 
-    background-color: #888888;
+    background-color: #FF7F50;
     padding: 10px;
     border: 2px solid black;
     border-radius: 5px 20px;
@@ -69,3 +82,4 @@ button {
     font-weight: bold;
     text-align: center;
 }
+
