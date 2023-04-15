@@ -39,7 +39,7 @@ button {
     border-radius: 5px;
 }
 
-.tablaMultiplicar, .calcIndemnizacion {
+.tablaMultiplicar, .calcIndemnizacion, .encriptador{
     background-color: #FFA07A;
     padding: 10px;
     text-align: center;

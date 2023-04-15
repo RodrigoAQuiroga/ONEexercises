@@ -52,34 +52,51 @@
       <h3>Calculadora de Indemnizaciones según Legislación Argentina</h3>
 
       <p>¿Cuando ingreso a trabajar?</p>
-      <input type="number" name="" class="iniYear" placeholder="Año de Ingreso" onclick="erase()">
-      <input type="number" name="" class="iniMonth" placeholder="Mes de Ingreso" onclick="erase()">
-      <input type="number" name="" class="iniDay" placeholder="Día de Ingreso" onclick="erase()">
+      <input type="number" name="" class="iniYear" placeholder="Año de Ingreso">
+      <input type="number" name="" class="iniMonth" placeholder="Mes de Ingreso" >
+      <input type="number" name="" class="iniDay" placeholder="Día de Ingreso" >
 
       <hr>
 
       <p>¿Cuando lo despidieron?</p>
-      <input type="number" name="" class="endYear" placeholder="Año de Egreso" onclick="erase()">
-      <input type="number" name="" class="endMonth" placeholder="Mes de Egreso" onclick="erase()">
-      <input type="number" name="" class="endDay" placeholder="Día de Egreso" onclick="erase()">
+      <input type="number" name="" class="endYear" placeholder="Año de Egreso" >
+      <input type="number" name="" class="endMonth" placeholder="Mes de Egreso" >
+      <input type="number" name="" class="endDay" placeholder="Día de Egreso" >
 
       <hr>
 
       <p>¿Cual fue su mejor sueldo?</p>
-      <input type="number" name="" class="sueldo" placeholder="Sin PUNTOS, COMAS o SIMBOLOS" style="width: 50%;" onclick="erase()">
+      <input type="number" name="" class="sueldo" placeholder="Sin PUNTOS, COMAS o SIMBOLOS" style="width: 50%;" ">
 <hr>
 <button onclick="indemnizacionGeneral()">Calcular</button>
 
 <hr>
-
 <div id="showRubro">
-  <h3>Rubros</h3>
-
   <button onclick="erase()">Borrar Resultados</button>
- 
+
+  <h3>Rubros</h3>  
+
 
 </div>
 
+
+    </section>
+
+
+    <section class="encriptador">
+  
+
+      
+      <h3>Encriptador</h3>
+
+      <input type="text" name="" class="txt" placeholder="Introduce el mensaje">
+
+      <button onclick="encriptar()">encriptar</button>
+      <button onclick="desencriptar()">desencriptar</button>
+
+      <p id="resultadosEncriptado">
+
+      </p>
 
     </section>
 
