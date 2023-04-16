@@ -61,7 +61,7 @@ function indemnizacionGeneral() {
         let rubroA = document.createElement("p");
         rubroA.setAttribute("id", "indeGeneral")
 
-        rubroA.innerText = "Según su salario de $" + salario + ", y por sus " + diffYear + " años de relación, le corresponde una indemnización aproximada de $" + diffYear * salario + " de acuerdo al art. 245 LCT";
+        rubroA.innerText = "INDEMNIZACIÓN POR ANTIGÜEDAD: Según su salario de $" + salario + ", y por sus " + diffYear + " años de relación, le corresponde una indemnización aproximada de $" + diffYear * salario + " de acuerdo al art. 245 LCT";
 
         document.getElementById("showRubro").appendChild(rubroA);
 
@@ -69,7 +69,7 @@ function indemnizacionGeneral() {
         let rubroB = document.createElement("p");
         rubroB.setAttribute("id", "indeGeneral")
 
-        rubroB.innerText = "Según su salario de $" + salario + ", y por sus " + diffYearMinus + " años de relación, le corresponde una indemnización aproximada de $" + diffYearMinus * salario + " de acuerdo al art. 245 LCT";
+        rubroB.innerText = "INDEMNIZACIÓN POR ANTIGÜEDAD: Según su salario de $" + salario + ", y por sus " + diffYearMinus + " años de relación, le corresponde una indemnización aproximada de $" + diffYearMinus * salario + " de acuerdo al art. 245 LCT";
 
         document.getElementById("showRubro").appendChild(rubroB);
     }
@@ -85,7 +85,7 @@ function indemnizacionGeneral() {
         let rubroC = document.createElement("p");
         rubroC.setAttribute("id", "indeIntegra")
 
-        rubroC.innerText = "Por intergración del mes de despido, debido a que le faltaban " + (claseMeses[0] - diaFinal) + " días para que concluya el mes, y su sueldo proporcional era de $" + (salario / claseMeses[0]) + ", le corresponde aproximadamente de acuerdo al art. 233 LCT $" + (salario / claseMeses[0]) * (claseMeses[0] - diaFinal) + " y por los dias trabajados $" + (salario / claseMeses[0]) * diaFinal;
+        rubroC.innerText = "INTEGRACIÓN MES DE DESPIDO: Por intergración del mes de despido, debido a que le faltaban " + (claseMeses[0] - diaFinal) + " días para que concluya el mes, y su sueldo proporcional era de $" + (salario / claseMeses[0]) + ", le corresponde aproximadamente de acuerdo al art. 233 LCT $" + (salario / claseMeses[0]) * (claseMeses[0] - diaFinal) + " y por los dias trabajados $" + (salario / claseMeses[0]) * diaFinal;
 
         document.getElementById("showRubro").appendChild(rubroC);
 
@@ -94,7 +94,7 @@ function indemnizacionGeneral() {
         let rubroC = document.createElement("p");
         rubroC.setAttribute("id", "indeIntegra")
 
-        rubroC.innerText = "Por intergración del mes de despido, debido a que le faltaban " + (claseMeses[1] - diaFinal) + " días para que concluya el mes, y su sueldo proporcional era de $" + (salario / claseMeses[1]) + ", le corresponde aproximadamente de acuerdo al art. 233 LCT $" + (salario / claseMeses[1]) * (claseMeses[1] - diaFinal) + " y por los dias trabajados $" + (salario / claseMeses[1]) * diaFinal;
+        rubroC.innerText = "INTEGRACIÓN MES DE DESPIDO: Por intergración del mes de despido, debido a que le faltaban " + (claseMeses[1] - diaFinal) + " días para que concluya el mes, y su sueldo proporcional era de $" + (salario / claseMeses[1]) + ", le corresponde aproximadamente de acuerdo al art. 233 LCT $" + (salario / claseMeses[1]) * (claseMeses[1] - diaFinal) + " y por los dias trabajados $" + (salario / claseMeses[1]) * diaFinal;
 
         document.getElementById("showRubro").appendChild(rubroC);
 
@@ -103,7 +103,7 @@ function indemnizacionGeneral() {
         let rubroC = document.createElement("p");
         rubroC.setAttribute("id", "indeIntegra")
 
-        rubroC.innerText = "Por intergración del mes de despido, debido a que le faltaban " + (29 - diaFinal) + " días para que concluya el mes, y su sueldo proporcional era de $" + (salario / 29) + ", le corresponde aproximadamente de acuerdo al art. 233 LCT $" + (salario / 29) * (29 - diaFinal) + " y por los dias trabajados $" + (salario / 29) * diaFinal;
+        rubroC.innerText = "INTEGRACIÓN MES DE DESPIDO: Por intergración del mes de despido, debido a que le faltaban " + (29 - diaFinal) + " días para que concluya el mes, y su sueldo proporcional era de $" + (salario / 29) + ", le corresponde aproximadamente de acuerdo al art. 233 LCT $" + (salario / 29) * (29 - diaFinal) + " y por los dias trabajados $" + (salario / 29) * diaFinal;
 
         document.getElementById("showRubro").appendChild(rubroC);
 
@@ -112,7 +112,7 @@ function indemnizacionGeneral() {
         let rubroC = document.createElement("p");
         rubroC.setAttribute("id", "indeIntegra")
 
-        rubroC.innerText = "Por intergración del mes de despido, debido a que le faltaban " + (claseMeses[2] - diaFinal) + " días para que concluya el mes, y su sueldo proporcional era de $" + (salario / claseMeses[2]) + ", le corresponde aproximadamente de acuerdo al art. 233 LCT $" + (salario / claseMeses[2]) * (claseMeses[2] - diaFinal) + " y por los dias trabajados $" + (salario / claseMeses[2]) * diaFinal;
+        rubroC.innerText = "INTEGRACIÓN MES DE DESPIDO: Por intergración del mes de despido, debido a que le faltaban " + (claseMeses[2] - diaFinal) + " días para que concluya el mes, y su sueldo proporcional era de $" + (salario / claseMeses[2]) + ", le corresponde aproximadamente de acuerdo al art. 233 LCT $" + (salario / claseMeses[2]) * (claseMeses[2] - diaFinal) + " y por los dias trabajados $" + (salario / claseMeses[2]) * diaFinal;
 
         document.getElementById("showRubro").appendChild(rubroC);
 
@@ -131,7 +131,7 @@ function indemnizacionGeneral() {
         let rubroD = document.createElement("p");
         rubroD.setAttribute("id", "indePRE")
 
-        rubroD.innerText = "Según su salario de $" + salario + ", y por sus " + diffYear + " años de relación, le corresponde una indemnización aproximada de $" + (salario * 2) + " de acuerdo al art. 232 LCT";
+        rubroD.innerText = "PREAVISO: Según su salario de $" + salario + ", y por sus " + diffYear + " años de relación, le corresponde una indemnización por preaviso aproximada de $" + (salario * 2) + " de acuerdo al art. 232 LCT";
 
         document.getElementById("showRubro").appendChild(rubroD);
 
@@ -144,7 +144,7 @@ function indemnizacionGeneral() {
         let rubroE = document.createElement("p");
         rubroE.setAttribute("id", "indePRE")
 
-        rubroE.innerText = "Según su salario de $" + salario + ", y por sus " + diffYear + " años de relación, le corresponde una indemnización aproximada de $" + salario + " de acuerdo al art. 232 LCT";
+        rubroE.innerText = "PREAVISO: Según su salario de $" + salario + ", y por sus " + diffYear + " años de relación, le corresponde una indemnización por preaviso aproximada de $" + salario + " de acuerdo al art. 232 LCT";
 
         document.getElementById("showRubro").appendChild(rubroE);
 
@@ -160,7 +160,7 @@ function indemnizacionGeneral() {
         let rubroF = document.createElement("p");
         rubroF.setAttribute("id", "indePRE")
 
-        rubroF.innerText = "Según su salario de $" + salario + ", y por sus " + diffYearMinus + " años de relación, le corresponde una indemnización aproximada de $" + (salario * 2) + " de acuerdo al art. 232 LCT";
+        rubroF.innerText = "PREAVISO: Según su salario de $" + salario + ", y por sus " + diffYearMinus + " años de relación, le corresponde una indemnización por preaviso aproximada de $" + (salario * 2) + " de acuerdo al art. 232 LCT";
 
         document.getElementById("showRubro").appendChild(rubroF);
 
@@ -171,7 +171,7 @@ function indemnizacionGeneral() {
         let rubroG = document.createElement("p");
         rubroG.setAttribute("id", "indePRE")
 
-        rubroG.innerText = "Según su salario de $" + salario + ", y por sus " + diffYearMinus + " años de relación, le corresponde una indemnización aproximada de $" + salario + " de acuerdo al art. 232 LCT";
+        rubroG.innerText = "PREAVISO: Según su salario de $" + salario + ", y por sus " + diffYearMinus + " años de relación, le corresponde una indemnización por preaviso aproximada de $" + salario + " de acuerdo al art. 232 LCT";
 
         document.getElementById("showRubro").appendChild(rubroG);
 
@@ -198,7 +198,7 @@ function indemnizacionGeneral() {
         let rubroH = document.createElement("p");
         rubroH.setAttribute("id", "indeVaca")
 
-        rubroH.innerText = "La indemnización por vacaciones no gozadas entre el periodo de Octubre del año anterior y Abril del corriente año, consistiria aproximadamente en: $" + (salario / 25) * (14 * diasPropor);
+        rubroH.innerText = "INDEMNIZACIÓN POR VACACIONES NO GOZADAS: La indemnización por vacaciones no gozadas entre el periodo de Octubre del año anterior y Abril del corriente año, consistiria aproximadamente en: $" + (salario / 25) * (14 * diasPropor);
 
         document.getElementById("showRubro").appendChild(rubroH);
 
@@ -210,7 +210,7 @@ function indemnizacionGeneral() {
 
 
 
-        rubroH.innerText = "La indemnización por vacaciones no gozadas entre el periodo de Octubre del año anterior y Abril del corriente año, consistiria aproximadamente en: $" + (salario / 25) * (21 * diasPropor);
+        rubroH.innerText = "INDEMNIZACIÓN POR VACACIONES NO GOZADAS: La indemnización por vacaciones no gozadas entre el periodo de Octubre del año anterior y Abril del corriente año, consistiria aproximadamente en: $" + (salario / 25) * (21 * diasPropor);
 
         document.getElementById("showRubro").appendChild(rubroH);
 
@@ -222,7 +222,7 @@ function indemnizacionGeneral() {
 
 
 
-        rubroH.innerText = "La indemnización por vacaciones no gozadas entre el periodo de Octubre del año anterior y Abril del corriente año, consistiria aproximadamente en: $ " + (salario / 25) * (28 * diasPropor);
+        rubroH.innerText = "INDEMNIZACIÓN POR VACACIONES NO GOZADAS: La indemnización por vacaciones no gozadas entre el periodo de Octubre del año anterior y Abril del corriente año, consistiria aproximadamente en: $ " + (salario / 25) * (28 * diasPropor);
 
         document.getElementById("showRubro").appendChild(rubroH);
 
@@ -235,7 +235,7 @@ function indemnizacionGeneral() {
 
 
 
-        rubroH.innerText = "La indemnización por vacaciones no gozadas entre el periodo de Octubre del año anterior y Abril del corriente año, consistiria aproximadamente en: $ " + (salario / 25) * (35 * diasPropor);
+        rubroH.innerText = "INDEMNIZACIÓN POR VACACIONES NO GOZADAS: La indemnización por vacaciones no gozadas entre el periodo de Octubre del año anterior y Abril del corriente año, consistiria aproximadamente en: $ " + (salario / 25) * (35 * diasPropor);
 
         document.getElementById("showRubro").appendChild(rubroH);
 
@@ -253,7 +253,7 @@ function indemnizacionGeneral() {
     let rubroI = document.createElement("p");
     rubroI.setAttribute("id", "indeSAC")
 
-    rubroI.innerText = "La indemnización por SAC proporcional corresponderia a: $ " + (sac * diasProporSAC);
+    rubroI.innerText = "SAC: PROPORCIONAL: La indemnización por SAC proporcional corresponderia a: $ " + (sac * diasProporSAC);
 
     document.getElementById("showRubro").appendChild(rubroI);
 
@@ -285,6 +285,9 @@ function erase() {
 
     let d = document.getElementById("indeVaca");
     d.remove();
+
+    let e = document.getElementById("indeSAC");
+    e.remove();
 
 
 
