@@ -85,7 +85,7 @@ function indemnizacionGeneral(){
         let rubroC = document.createElement("p");
         rubroC.setAttribute("id", "indeIntegra")
 
-        rubroC.innerText = "Por intergración del mes de despido, debido a que le faltaban " + (claseMeses[0]- diaFinal) + " días para que concluya el mes, y su sueldo proporcional era de $"+ (salario/claseMeses[0]) +", le corresponde aproximadamente de acuerdo al art. 233 LCT $" + (salario/claseMeses[0])*(claseMeses[0]-diaFinal)+ " y por los dias trabajados $" + (salario/claseMeses[0])*-diaFinal;
+        rubroC.innerText = "Por intergración del mes de despido, debido a que le faltaban " + (claseMeses[0]- diaFinal) + " días para que concluya el mes, y su sueldo proporcional era de $"+ (salario/claseMeses[0]) +", le corresponde aproximadamente de acuerdo al art. 233 LCT $" + (salario/claseMeses[0])*(claseMeses[0]-diaFinal)+ " y por los dias trabajados $" + (salario/claseMeses[0])*diaFinal;
 
         document.getElementById("showRubro").appendChild(rubroC); 
         
